@@ -1,13 +1,13 @@
 {% set name = "CountEst" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/CountEst-{{ version }}.tar.gz
-  sha256: cad713aff680ea95c4f6a1d5466f35baa2a1f2d8786604c39e22a7f9758af83e
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name|lower }}-{{ version }}.tar.gz
+  sha256: f1a49ac97a808850dcf9f3ea36102142a75c917b61ce3184b2be47319b53a1b6
 
 build:
   noarch: python
